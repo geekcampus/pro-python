@@ -1,0 +1,9 @@
+###
+# Test Dependencies
+###
+pytest==5.3.0
+###
+# Dev Dependencies
+###
+black
+mypy

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SPLITTER_PROPORTION" value="0.29395604" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="05515df9-08a6-4712-a07b-e7d3da961a63" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Python Unit Test" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Tzj5I4tAYlC39uJedzT6okv1A9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demos" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_typings.test_covariant">
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration name="pytest for test_typing2.test_typevar_constraint" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pro-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_typing2.test_typevar_constraint&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_typing2.test_typevar_text_concat" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pro-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_typing2.test_typevar_text_concat&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_typings.test_covariant" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pro-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_typings.test_covariant&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_typings.test_generic" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pro-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_typings.test_generic&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_typings.test_typevar_constraint" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pro-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_typings.test_typevar_constraint&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_typings.test_covariant" />
+        <item itemvalue="Python tests.pytest for test_typings.test_generic" />
+        <item itemvalue="Python tests.pytest for test_typing2.test_typevar_text_concat" />
+        <item itemvalue="Python tests.pytest for test_typing2.test_typevar_constraint" />
+        <item itemvalue="Python tests.pytest for test_typings.test_typevar_constraint" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="475" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1575463230506">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="475" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1575463230506" />
+    <state x="508" y="222" key="FileChooserDialogImpl" timestamp="1574821346606">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="508" y="222" key="FileChooserDialogImpl/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1574821346606" />
+    <state width="1398" height="238" key="GridCell.Tab.0.bottom" timestamp="1575511287031">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1575511287031" />
+    <state width="1398" height="238" key="GridCell.Tab.0.center" timestamp="1575511287029">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.center/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1575511287029" />
+    <state width="1398" height="238" key="GridCell.Tab.0.left" timestamp="1575511287028">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.left/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1575511287028" />
+    <state width="1398" height="238" key="GridCell.Tab.0.right" timestamp="1575511287030">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="238" key="GridCell.Tab.0.right/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1575511287030" />
+    <state x="229" y="100" key="SettingsEditor" timestamp="1575464327136">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="229" y="100" key="SettingsEditor/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1575464327136" />
+    <state x="499" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1575461106047">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="382" y="-832" key="com.intellij.ide.util.TipDialog/0.23.1440.877/-283.-1177.1920.1177@-283.-1177.1920.1177" timestamp="1574821258470" />
+    <state x="499" y="280" key="com.intellij.ide.util.TipDialog/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1575461106047" />
+    <state width="300" height="65" key="javadoc.popup.new" timestamp="1575465010039">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="400" height="88" key="javadoc.popup.new/0.23.1440.877/-283.-1177.1920.1177@-283.-1177.1920.1177" timestamp="1575461190923" />
+    <state width="300" height="65" key="javadoc.popup.new/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1575465010039" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1575463566911">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1575463566911" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typing2_test_typevar_constraint.coverage" NAME="pytest for test_typing2.test_typevar_constraint Coverage Results" MODIFIED="1575041158642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$Unittests_for_unittest_vs_pytest_OsPathTestCase_testSplitExt.coverage" NAME="Unittests for unittest_vs_pytest.OsPathTestCase.testSplitExt Coverage Results" MODIFIED="1574474435920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$Unittests_for_unittest_vs_pytest_OsPathTestCase_test_list_eq.coverage" NAME="Unittests for unittest_vs_pytest.OsPathTestCase.test_list_eq Coverage Results" MODIFIED="1574506282849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_classic_class.coverage" NAME="pytest for test_typings.test_classic_class Coverage Results" MODIFIED="1574687070016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_noreturn.coverage" NAME="pytest for test_typings.test_noreturn Coverage Results" MODIFIED="1574950670746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_typevar_constraint.coverage" NAME="pytest for test_typings.test_typevar_constraint Coverage Results" MODIFIED="1575039985508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_demos_test_biz_test_gen_practice_seq.coverage" NAME="pytest for demos.test_biz.test_gen_practice_seq Coverage Results" MODIFIED="1574671844153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typing2_test_typevar_text_concat.coverage" NAME="pytest for test_typing2.test_typevar_text_concat Coverage Results" MODIFIED="1575041769802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_union.coverage" NAME="pytest for test_typings.test_union Coverage Results" MODIFIED="1574819136541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_tuple.coverage" NAME="pytest for test_typings.test_tuple Coverage Results" MODIFIED="1574951543450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_callable.coverage" NAME="pytest for test_typings.test_callable Coverage Results" MODIFIED="1574952681729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$Unittests_for_unittest_vs_pytest_OsPathTestCase.coverage" NAME="Unittests for unittest_vs_pytest.OsPathTestCase Coverage Results" MODIFIED="1574470401391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_dataclass.coverage" NAME="pytest for test_typings.test_dataclass Coverage Results" MODIFIED="1574687646536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_biz_test_gen_practice_seq.coverage" NAME="pytest for test_biz.test_gen_practice_seq Coverage Results" MODIFIED="1574670794483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_final.coverage" NAME="pytest for test_typings.test_final Coverage Results" MODIFIED="1574904885411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_unittest_vs_pytest_test_contain.coverage" NAME="pytest for unittest_vs_pytest.test_contain Coverage Results" MODIFIED="1574506638294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_unittest_vs_pytest_test_admin_user_can_doxx.coverage" NAME="pytest for unittest_vs_pytest.test_admin_user_can_doxx Coverage Results" MODIFIED="1574511475750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_generic.coverage" NAME="pytest for test_typings.test_generic Coverage Results" MODIFIED="1575461813713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_typevar.coverage" NAME="pytest for test_typings.test_typevar Coverage Results" MODIFIED="1575039679378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_in_test_typings_py.coverage" NAME="pytest in test_typings.py Coverage Results" MODIFIED="1574686928776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_http_method_enum.coverage" NAME="pytest for test_typings.test_http_method_enum Coverage Results" MODIFIED="1574903982894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_unittest_vs_pytest_test_list_ext.coverage" NAME="pytest for unittest_vs_pytest.test_list_ext Coverage Results" MODIFIED="1574506491007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_covariant.coverage" NAME="pytest for test_typings.test_covariant Coverage Results" MODIFIED="1575465091294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_unittest_vs_pytest_test_split_ext.coverage" NAME="pytest for unittest_vs_pytest.test_split_ext Coverage Results" MODIFIED="1574474634969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_http_method_literal.coverage" NAME="pytest for test_typings.test_http_method_literal Coverage Results" MODIFIED="1574903688126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+  </component>
+</project>
