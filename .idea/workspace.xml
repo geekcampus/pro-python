@@ -4,9 +4,28 @@
     <option name="SPLITTER_PROPORTION" value="0.29395604" />
     <option name="SCOPE_TYPE" value="3" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="05515df9-08a6-4712-a07b-e7d3da961a63" name="Default Changelist" comment="">
+    <list default="true" id="05515df9-08a6-4712-a07b-e7d3da961a63" name="Default Changelist" comment="add(test): 增加 rmb_toupper 及基本逻辑及测试代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/test_rmb.py" beforeDir="false" afterPath="$PROJECT_DIR$/demos/test_rmb.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +147,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_rmb.test_rmb_toupper_six_digit_with_zero" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_rmb.test_rmb_toupper_six_digit" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pro-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,7 +163,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_rmb.test_rmb_toupper_six_digit_with_zero&quot;" />
+      <option name="_new_target" value="&quot;test_rmb.test_rmb_toupper_six_digit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -191,16 +210,16 @@
     <list>
       <item itemvalue="Python tests.pytest in test_rmb.py" />
       <item itemvalue="Python tests.pytest for test_rmb.test_rmb_toupper_three_digit" />
+      <item itemvalue="Python tests.pytest for test_rmb.test_rmb_toupper_six_digit" />
       <item itemvalue="Python tests.pytest for test_rmb.test_rmb_toupper_five_digit_with_zero" />
-      <item itemvalue="Python tests.pytest for test_rmb.test_rmb_toupper_six_digit_with_zero" />
       <item itemvalue="Python tests.pytest for test_rmb.test_rmb_toupper_big" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test_rmb.py" />
         <item itemvalue="Python tests.pytest for test_rmb.test_rmb_toupper_big" />
-        <item itemvalue="Python tests.pytest for test_rmb.test_rmb_toupper_six_digit_with_zero" />
         <item itemvalue="Python tests.pytest for test_rmb.test_rmb_toupper_five_digit_with_zero" />
+        <item itemvalue="Python tests.pytest for test_rmb.test_rmb_toupper_six_digit" />
         <item itemvalue="Python tests.pytest for test_rmb.test_rmb_toupper_three_digit" />
       </list>
     </recent_temporary>
@@ -208,70 +227,87 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add(test): 增加 rmb_toupper 及基本逻辑及测试代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="add(test): 增加 rmb_toupper 及基本逻辑及测试代码" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="381" y="292" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589848451053">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="381" y="292" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1589848451053" />
-    <state width="1270" height="222" key="GridCell.Tab.0.bottom" timestamp="1589898265382">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1878" height="391" key="GridCell.Tab.0.bottom" timestamp="1589932698246">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1270" height="222" key="GridCell.Tab.0.bottom/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589898265382" />
-    <state width="1878" height="298" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1589883551314" />
-    <state width="1270" height="222" key="GridCell.Tab.0.center" timestamp="1589898265379">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1878" height="391" key="GridCell.Tab.0.bottom/0.23.1440.877/-283.-1177.1920.1177@-283.-1177.1920.1177" timestamp="1589931914451" />
+    <state width="1270" height="135" key="GridCell.Tab.0.bottom/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589931501463" />
+    <state width="1878" height="391" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1589932698246" />
+    <state width="1878" height="391" key="GridCell.Tab.0.center" timestamp="1589932698245">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1270" height="222" key="GridCell.Tab.0.center/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589898265379" />
-    <state width="1878" height="298" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1589883551314" />
-    <state width="1270" height="222" key="GridCell.Tab.0.left" timestamp="1589898265377">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1878" height="391" key="GridCell.Tab.0.center/0.23.1440.877/-283.-1177.1920.1177@-283.-1177.1920.1177" timestamp="1589931914450" />
+    <state width="1270" height="135" key="GridCell.Tab.0.center/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589931501462" />
+    <state width="1878" height="391" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1589932698245" />
+    <state width="1878" height="391" key="GridCell.Tab.0.left" timestamp="1589932698244">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1270" height="222" key="GridCell.Tab.0.left/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589898265377" />
-    <state width="1878" height="298" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1589883551313" />
-    <state width="1270" height="222" key="GridCell.Tab.0.right" timestamp="1589898265381">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1878" height="391" key="GridCell.Tab.0.left/0.23.1440.877/-283.-1177.1920.1177@-283.-1177.1920.1177" timestamp="1589931914450" />
+    <state width="1270" height="135" key="GridCell.Tab.0.left/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589931501462" />
+    <state width="1878" height="391" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1589932698244" />
+    <state width="1878" height="391" key="GridCell.Tab.0.right" timestamp="1589932698245">
+      <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1270" height="222" key="GridCell.Tab.0.right/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589898265381" />
-    <state width="1878" height="298" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1589883551314" />
-    <state width="1270" height="351" key="GridCell.Tab.1.bottom" timestamp="1589898194487">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1878" height="391" key="GridCell.Tab.0.right/0.23.1440.877/-283.-1177.1920.1177@-283.-1177.1920.1177" timestamp="1589931914451" />
+    <state width="1270" height="135" key="GridCell.Tab.0.right/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589931501463" />
+    <state width="1878" height="391" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1589932698245" />
+    <state width="1878" height="400" key="GridCell.Tab.1.bottom" timestamp="1589931874596">
+      <screen x="-283" y="-1177" width="1920" height="1177" />
     </state>
-    <state width="1270" height="351" key="GridCell.Tab.1.bottom/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589898194487" />
+    <state width="1878" height="400" key="GridCell.Tab.1.bottom/0.23.1440.877/-283.-1177.1920.1177@-283.-1177.1920.1177" timestamp="1589931874596" />
+    <state width="1270" height="135" key="GridCell.Tab.1.bottom/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589931502306" />
     <state width="1878" height="405" key="GridCell.Tab.1.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1589883518533" />
-    <state width="1270" height="351" key="GridCell.Tab.1.center" timestamp="1589898194484">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1878" height="400" key="GridCell.Tab.1.center" timestamp="1589931874595">
+      <screen x="-283" y="-1177" width="1920" height="1177" />
     </state>
-    <state width="1270" height="351" key="GridCell.Tab.1.center/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589898194484" />
+    <state width="1878" height="400" key="GridCell.Tab.1.center/0.23.1440.877/-283.-1177.1920.1177@-283.-1177.1920.1177" timestamp="1589931874595" />
+    <state width="1270" height="135" key="GridCell.Tab.1.center/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589931502305" />
     <state width="1878" height="405" key="GridCell.Tab.1.center/0.23.1920.1177@0.23.1920.1177" timestamp="1589883518532" />
-    <state width="1270" height="351" key="GridCell.Tab.1.left" timestamp="1589898194481">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1878" height="400" key="GridCell.Tab.1.left" timestamp="1589931874595">
+      <screen x="-283" y="-1177" width="1920" height="1177" />
     </state>
-    <state width="1270" height="351" key="GridCell.Tab.1.left/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589898194481" />
+    <state width="1878" height="400" key="GridCell.Tab.1.left/0.23.1440.877/-283.-1177.1920.1177@-283.-1177.1920.1177" timestamp="1589931874595" />
+    <state width="1270" height="135" key="GridCell.Tab.1.left/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589931502305" />
     <state width="1878" height="405" key="GridCell.Tab.1.left/0.23.1920.1177@0.23.1920.1177" timestamp="1589883518531" />
-    <state width="1270" height="351" key="GridCell.Tab.1.right" timestamp="1589898194486">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1878" height="400" key="GridCell.Tab.1.right" timestamp="1589931874596">
+      <screen x="-283" y="-1177" width="1920" height="1177" />
     </state>
-    <state width="1270" height="351" key="GridCell.Tab.1.right/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589898194486" />
+    <state width="1878" height="400" key="GridCell.Tab.1.right/0.23.1440.877/-283.-1177.1920.1177@-283.-1177.1920.1177" timestamp="1589931874596" />
+    <state width="1270" height="135" key="GridCell.Tab.1.right/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589931502306" />
     <state width="1878" height="405" key="GridCell.Tab.1.right/0.23.1920.1177@0.23.1920.1177" timestamp="1589883518533" />
     <state x="229" y="100" key="SettingsEditor" timestamp="1589892545845">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="229" y="100" key="SettingsEditor/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589892545845" />
-    <state width="300" height="65" key="javadoc.popup.new" timestamp="1589898236824">
+    <state x="273" y="141" key="Vcs.Push.Dialog.v2" timestamp="1589901136582">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="300" height="65" key="javadoc.popup.new/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589898236824" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/demos/test_rmb.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="273" y="141" key="Vcs.Push.Dialog.v2/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589901136582" />
+    <state width="400" height="88" key="javadoc.popup.new" timestamp="1589931683161">
+      <screen x="-283" y="-1177" width="1920" height="1177" />
+    </state>
+    <state width="400" height="88" key="javadoc.popup.new/0.23.1440.877/-283.-1177.1920.1177@-283.-1177.1920.1177" timestamp="1589931683161" />
+    <state width="300" height="65" key="javadoc.popup.new/0.23.1440.877/-283.-1177.1920.1177@0.23.1440.877" timestamp="1589904866977" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_unittest_vs_pytest_test_list_ext.coverage" NAME="pytest for unittest_vs_pytest.test_list_ext Coverage Results" MODIFIED="1574506491007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
@@ -282,15 +318,16 @@
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_http_method_literal.coverage" NAME="pytest for test_typings.test_http_method_literal Coverage Results" MODIFIED="1574903688126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$Unittests_for_unittest_vs_pytest_OsPathTestCase_test_list_eq.coverage" NAME="Unittests for unittest_vs_pytest.OsPathTestCase.test_list_eq Coverage Results" MODIFIED="1574506282849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$Unittests_for_unittest_vs_pytest_OsPathTestCase.coverage" NAME="Unittests for unittest_vs_pytest.OsPathTestCase Coverage Results" MODIFIED="1574470401391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
-    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_rmb_test_rmb_toupper_six_digit.coverage" NAME="pytest for test_rmb.test_rmb_toupper_six_digit Coverage Results" MODIFIED="1589857431505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_rmb_test_rmb_toupper_six_digit.coverage" NAME="pytest for test_rmb.test_rmb_toupper_six_digit Coverage Results" MODIFIED="1589904870984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_rmb_test_rmb_toupper_nine_digit.coverage" NAME="pytest for test_rmb.test_rmb_toupper_nine_digit Coverage Results" MODIFIED="1589881605406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_unittest_vs_pytest_test_admin_user_can_doxx.coverage" NAME="pytest for unittest_vs_pytest.test_admin_user_can_doxx Coverage Results" MODIFIED="1574511475750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
-    <SUITE FILE_PATH="coverage/pro_python$pytest_in_test_rmb_py.coverage" NAME="pytest in test_rmb.py Coverage Results" MODIFIED="1589898255088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_in_test_rmb_py.coverage" NAME="pytest in test_rmb.py Coverage Results" MODIFIED="1589931914441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_classic_class.coverage" NAME="pytest for test_typings.test_classic_class Coverage Results" MODIFIED="1574687070016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
-    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_rmb_test_rmb_toupper_three_digit.coverage" NAME="pytest for test_rmb.test_rmb_toupper_three_digit Coverage Results" MODIFIED="1589895239368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_rmb_test_rmb_toupper_three_digit.coverage" NAME="pytest for test_rmb.test_rmb_toupper_three_digit Coverage Results" MODIFIED="1589903574275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$Unittests_for_unittest_vs_pytest_OsPathTestCase_testSplitExt.coverage" NAME="Unittests for unittest_vs_pytest.OsPathTestCase.testSplitExt Coverage Results" MODIFIED="1574474435920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$pytest_in_test_typings_py.coverage" NAME="pytest in test_typings.py Coverage Results" MODIFIED="1574686928776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_rmb_test_rmb_toupper_six_digit_with_zero.coverage" NAME="pytest for test_rmb.test_rmb_toupper_six_digit_with_zero Coverage Results" MODIFIED="1589897593522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_rmb_test_rmb_toupper_two_digit.coverage" NAME="pytest for test_rmb.test_rmb_toupper_two_digit Coverage Results" MODIFIED="1589902786915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_typevar.coverage" NAME="pytest for test_typings.test_typevar Coverage Results" MODIFIED="1575039679378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_rmb_test_rmb_toupper.coverage" NAME="pytest for test_rmb.test_rmb_toupper Coverage Results" MODIFIED="1589894066706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_unittest_vs_pytest_test_contain.coverage" NAME="pytest for unittest_vs_pytest.test_contain Coverage Results" MODIFIED="1574506638294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
@@ -300,7 +337,7 @@
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_demos_test_biz_test_gen_practice_seq.coverage" NAME="pytest for demos.test_biz.test_gen_practice_seq Coverage Results" MODIFIED="1574671844153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_biz_test_gen_practice_seq.coverage" NAME="pytest for test_biz.test_gen_practice_seq Coverage Results" MODIFIED="1574670794483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_rmb_test_rmb_toupper_eight_digit_with_zero.coverage" NAME="pytest for test_rmb.test_rmb_toupper_eight_digit_with_zero Coverage Results" MODIFIED="1589878421855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
-    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_rmb_test_rmb_toupper_five_digit_with_zero.coverage" NAME="pytest for test_rmb.test_rmb_toupper_five_digit_with_zero Coverage Results" MODIFIED="1589897154019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_rmb_test_rmb_toupper_five_digit_with_zero.coverage" NAME="pytest for test_rmb.test_rmb_toupper_five_digit_with_zero Coverage Results" MODIFIED="1589931648631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_rmb_test_rmb_toupper_five_digit.coverage" NAME="pytest for test_rmb.test_rmb_toupper_five_digit Coverage Results" MODIFIED="1589881672029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_typevar_constraint.coverage" NAME="pytest for test_typings.test_typevar_constraint Coverage Results" MODIFIED="1575039985508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_union.coverage" NAME="pytest for test_typings.test_union Coverage Results" MODIFIED="1574819136541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
@@ -312,7 +349,7 @@
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_http_method_enum.coverage" NAME="pytest for test_typings.test_http_method_enum Coverage Results" MODIFIED="1574903982894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_rmb_test_rmb_toupper_four_digit.coverage" NAME="pytest for test_rmb.test_rmb_toupper_four_digit Coverage Results" MODIFIED="1589855126924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_rmb_test_rmb_toupper_one_digit.coverage" NAME="pytest for test_rmb.test_rmb_toupper_one_digit Coverage Results" MODIFIED="1589850252820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
-    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_rmb_test_rmb_toupper_big.coverage" NAME="pytest for test_rmb.test_rmb_toupper_big Coverage Results" MODIFIED="1589898248723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
+    <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_rmb_test_rmb_toupper_big.coverage" NAME="pytest for test_rmb.test_rmb_toupper_big Coverage Results" MODIFIED="1589931909523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
     <SUITE FILE_PATH="coverage/pro_python$pytest_for_test_typings_test_final.coverage" NAME="pytest for test_typings.test_final Coverage Results" MODIFIED="1574904885411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demos" />
   </component>
 </project>

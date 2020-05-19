@@ -30,73 +30,57 @@ https://wiki.mbalib.com/wiki/%E3%80%8A%E4%BC%9A%E8%AE%A1%E5%9F%BA%E7%A1%80%E5%B7
 　　（五）阿拉伯金额数字中间有“0”时，汉字大写金额要写“零”字；阿拉伯数字金额中间连续有几个“0”时，汉字大写金额中可以只写一个“零”字；阿拉伯金额数字元位是“0”，或者数字中间连续有几个“0”、元位也是“0”但角位不是“0”时，汉字大写金额可以只写一个“零”字，也可以不写“零”字。
 """
 import pytest
-
+from collections import deque
 
 # float double
 # decimal 2^52 -1
 # "
 def _rmb_toupper_inner(amount:int,zero=False):
-  metas = ['零', '壹', '贰', '叁', '肆', '伍', '陆', '柒', '捌', '玖', '拾', '佰', '仟', '万', '亿']
-  res = ''
-  wans = amount // 10000
-  amount = amount % 10000
-  thousands = amount // 1000
-  amount = amount % 1000
-  hundred = amount // 100
-  amount = amount % 100
-  tens = amount // 10
-  yuans = amount % 10
-  if wans:
-    res += _rmb_toupper_inner(wans)  + '万'
-  if thousands:
-    if zero:
-      res += '零'
-      zero = False
-    res += metas[thousands] +'仟'
-  else:
-    zero = zero or wans > 0
-  if hundred:
-    if zero:
-      res += '零'
-      zero = False
-    res += metas[hundred] + '佰'
-  else:
-    zero = zero or thousands > 0 or wans > 0
-  if tens:
-    if zero:
-      res += '零'
-      zero = False
-    res += metas[tens]+'拾'
-  else:
-    zero = zero or hundred > 0 or thousands > 0 or wans > 0
-  if yuans:
-    if zero:
-      res += '零'
-    res +=metas[yuans]
-  if not res:
-    res = metas[0]
-  return res
+  metas = ['零', '壹', '贰', '叁', '肆', '伍', '陆', '柒', '捌', '玖']
+  bases = ['','拾','佰','仟','万']
+  chars = deque()
+  base = 0
+  while amount > 0:
+    div = amount // 10
+    remain = amount % 10
+    if remain:
+      if zero:
+        chars.appendleft('零')
+        zero = False
+      chars.appendleft(metas[remain]+bases[base])
+    else:
+      zero = zero or len(chars) > 0
+    amount = div
+    base += 1
+  return ''.join(chars)
 
-def rmb_toupper(amount:int)->str:
-  yis = amount // 100000000
-  amount = amount % 100000000
-  wans = amount // 10000
-  amount = amount % 10000
-  res = ''
-  if yis:
-    res += _rmb_toupper_inner(yis) +'亿'
-  if wans:
-    zero = (yis > 0 and wans < 1000) or (yis >0 and yis % 10 == 0)
-    res += _rmb_toupper_inner(wans,zero=zero) +'万'
-  else:
-    zero = yis > 0
-  if amount:
-    zero = zero or (wans > 0 and amount < 1000) or (wans >0 and wans % 10 == 0)
-    res += _rmb_toupper_inner(amount, zero=zero)
-  if not res:
-    res += _rmb_toupper_inner(0)
-  res += '元整'
-  return res
+
+
+def rmb_toupper(amount:int):
+  metas = ['零', '壹', '贰', '叁', '肆', '伍', '陆', '柒', '捌', '玖']
+  bases = ['','万','亿','万']
+  base = 0
+  comps = deque()
+  zero = False
+  while amount > 0:
+    div = amount // 10000
+    remain  = amount % 10000
+    if remain:
+      if zero:
+        comps.appendleft('零')
+        zero = False
+      chars = _rmb_toupper_inner(remain)
+      comps.appendleft(chars+ bases[base])
+      zero = zero or remain < 1000 or (div > 0 and div % 10 == 0)
+    else:
+      zero = zero or len(comps) > 0
+    base += 1
+    amount = div
+  if not comps:
+    comps.append(metas[amount])
+  return ''.join(comps)+'元整'
+
+
 
 
 @pytest.mark.parametrize("amount,upper",[(0, '零元整'), (1, '壹元整'), (2, '贰元整'), (3, '叁元整'), (4, '肆元整'), (5, '伍元整'), (6, '陆元整'), (7, '柒元整'), (8, '捌元整'), (9, '玖元整') ]
