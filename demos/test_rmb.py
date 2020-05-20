@@ -195,8 +195,13 @@ def test_rmb_toupper_nine_digit_with_zero(amount,upper):
 
 
 @pytest.mark.parametrize("amount,upper",
-                         [ (99086510000000, '玖拾玖万零捌佰陆拾伍亿壹仟万元整')]
+                         [
+                           (   99086510000000, '玖拾玖万零捌佰陆拾伍亿壹仟万元整'),
+                           (  100086510000000, '壹佰万零捌佰陆拾伍亿壹仟万元整'),
+                           (  103086510000000, '壹佰零叁万零捌佰陆拾伍亿壹仟万元整'),
+                           ( 1003086510000000, '壹仟零叁万零捌佰陆拾伍亿壹仟万元整'),
+                         ]
                          )
 def test_rmb_toupper_big(amount,upper):
-  # 2019 中国 GDP
+  # 2019 中国 GDP 99086510000000
   assert rmb_toupper(amount) == upper
